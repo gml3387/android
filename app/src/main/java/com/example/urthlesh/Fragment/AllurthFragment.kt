@@ -31,7 +31,6 @@ class AllurthFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
-
         configureAdvertiseTab()
 
         btn_create.setOnClickListener {

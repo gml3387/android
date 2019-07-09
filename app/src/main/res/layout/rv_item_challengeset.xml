@@ -3,7 +3,7 @@
               android:paddingHorizontal="20dp"
               android:layout_width="match_parent"
               android:orientation="vertical"
-              android:layout_height="131dp">
+              android:layout_height="131dp" android:id="@+id/rv_challengeset">
     <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
