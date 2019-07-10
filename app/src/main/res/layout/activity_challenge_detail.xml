@@ -6,113 +6,171 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".Activity.ChallengeDetailActivity">
-    <LinearLayout
-            android:background="#ffffff"
+    <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="48dp">
-        <ImageView
-                android:id="@+id/btn_back_challenge_detail"
-                android:src="@drawable/ic_backarrow"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="14dp"
-                android:layout_width="24dp"
-                android:layout_height="24dp"/>
-        <ImageView
-                android:id="@+id/btn_share"
-                android:src="@drawable/ic_share"
-                android:layout_marginLeft="320dp"
-                android:layout_marginTop="16dp"
-                android:layout_width="24dp"
-                android:layout_height="24dp"/>
-    </LinearLayout>
+            android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="vertical">
+            <LinearLayout
+                    android:background="#ffffff"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp">
+                <ImageView
+                        android:id="@+id/btn_back_challenge_detail"
+                        android:src="@drawable/ic_backarrow"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="14dp"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"/>
+                <ImageView
+                        android:id="@+id/btn_share"
+                        android:src="@drawable/ic_share"
+                        android:layout_marginLeft="320dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"/>
+            </LinearLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView
+                    android:background="@drawable/bg_chaldetail_shadow"
+                    android:layout_marginLeft="-24dp"
+                    android:layout_marginRight="-24dp"
+                    android:layout_marginTop="62dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="323dp"/>
+            <ImageView
+                    android:id="@+id/img_challenge_detail"
+                    android:src="@drawable/img_challenge_main_test"
+                    android:layout_width="360dp"
+                    android:layout_height="360dp"/>
+            <TextView
+                    android:id="@+id/txt_challenge_detail_title"
+                    android:text="텀블러 하루에 한번 쓰기"
+                    android:textColor="#15696c"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="408dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="27dp"/>
+            <ImageView
+                    android:src="@drawable/img_differaentiate_green"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="445dp"
+                    android:layout_width="18dp"
+                    android:layout_height="2dp"/>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_marginTop="467dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <TextView
+                        android:id="@+id/txt_challenge_detail_creator"
+                        android:text="하이하이"
+                        android:textSize="10sp"
+                        android:textColor="#b0b0b0"
+                        android:gravity="center"
+                        android:layout_width="74dp"
+                        android:layout_height="15dp"/>
+                <TextView
+                        android:text="|"
+                        android:textSize="10sp"
+                        android:textColor="#b0b0b0"
+                        android:layout_marginHorizontal="6dp"
+                        android:layout_width="wrap_content" android:layout_height="15dp"/>
+                <ImageView
+                        android:src="@drawable/ic_participatenumber"
+                        android:layout_marginVertical="2.5dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"/>
+                <TextView
+                        android:id="@+id/txt_challenge_detail_participatenum"
+                        android:text="444명 참여중"
+                        android:textSize="10sp"
+                        android:textColor="#53565b"
+                        android:layout_width="wrap_content" android:layout_height="15dp"/>
+                <ImageView
+                        android:src="@drawable/ic_totalauthnum"
+                        android:layout_marginVertical="2.5dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"/>
+                <TextView
+                        android:id="@+id/txt_challenge_detail_totalnum"
+                        android:text="총56회 인증"
+                        android:textSize="10sp"
+                        android:textColor="#53565b"
+                        android:layout_width="wrap_content" android:layout_height="15dp"/>
+                <ImageView4
+                        android:src="@drawable/user_2"
+                        android:layout_marginVertical="2.5dp"
+                        android:layout_marginRight="3.8dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="12.2dp"
+                        android:layout_height="12dp"/>
+                <TextView
+                        android:id="@+id/txt_challenge_detail_num"
+                        android:text="6회 인증"
+                        android:textSize="10sp"
+                        android:textColor="#53565b"
+                        android:layout_width="wrap_content" android:layout_height="15dp"/>
+            </LinearLayout>
+            <ImageView
+                    android:src="@drawable/img_line_long"
+                    android:layout_marginTop="502dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_width="328dp"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:id="@+id/txt_challenge_detail_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="529dp"
+                    android:layout_width="320dp" android:layout_height="wrap_content"/>
+            </RelativeLayout>
+            <ImageView
+                    android:src="@drawable/img_line_long"
+                    android:layout_marginHorizontal="26dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_width="328dp"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:layout_width="match_parent" android:layout_height="44dp"/>
+            <ImageView
+                    android:src="@drawable/img_line_long"
+                    android:layout_marginHorizontal="26dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_width="328dp"
+                    android:layout_height="wrap_content"/>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent" android:layout_height="24dp">
+                <TextView
+                        android:text="최근인증사진"
+                        android:textSize="16sp"
+                        android:textColor="#15696c"
+                        android:layout_marginLeft="16dp"
+                        android:layout_width="wrap_content" android:layout_height="24dp"/>
+                <TextView
+                    android:text="더보기"
+                    android:textColor="#53565b"
+                    android:textSize="12sp"
+                    android:layout_marginVertical="3dp"
+                    android:layout_marginLeft="197dp"
+                    android:layout_width="wrap_content" android:layout_height="18dp"/>
+                <TextView
+                        android:text=">"
+                        android:textColor="#707070"
+                        android:textSize="14sp"
+                        android:layout_marginLeft="235.5dp"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
     <ImageView
-            android:background="@drawable/bg_chaldetail_shadow"
-            android:layout_marginLeft="-24dp"
-            android:layout_marginRight="-24dp"
-            android:layout_marginTop="110dp"
-            android:layout_width="match_parent"
-            android:layout_height="323dp"/>
-    <ImageView
-            android:id="@+id/img_challenge_detail"
-            android:src="@drawable/img_challenge_main_test"
-            android:layout_marginTop="48dp"
-            android:layout_width="360dp"
-            android:layout_height="360dp"/>
-    <TextView
-            android:id="@+id/txt_challenge_detail_title"
-            android:text="텀블러 하루에 한번 쓰기"
-            android:textColor="#15696c"
-            android:textSize="18sp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="456dp"
-            android:layout_width="wrap_content"
-            android:layout_height="27dp"/>
-    <ImageView
-            android:src="@drawable/img_differaentiate_green"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="493dp"
-            android:layout_width="18dp"
-            android:layout_height="2dp"/>
-    <LinearLayout
-            android:orientation="horizontal"
-            android:layout_marginTop="515dp"
-            android:layout_marginBottom="20dp"
-            android:layout_marginHorizontal="20dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-        <TextView
-                android:id="@+id/txt_challenge_detail_creator"
-                android:text="하이하이"
-                android:textSize="10sp"
-                android:textColor="#b0b0b0"
-                android:gravity="center"
-                android:layout_width="74dp"
-                android:layout_height="15dp"/>
-        <TextView
-                android:text="|"
-                android:textSize="10sp"
-                android:textColor="#b0b0b0"
-                android:layout_marginHorizontal="6dp"
-                android:layout_width="wrap_content" android:layout_height="15dp"/>
-        <ImageView
-                android:src="@drawable/ic_participatenumber"
-                android:layout_marginVertical="2.5dp"
-                android:layout_marginRight="4dp"
-                android:layout_width="12dp"
-                android:layout_height="12dp"/>
-        <TextView
-                android:id="@+id/txt_challenge_detail_totalnum"
-                android:text="444명 참여중"
-                android:textSize="10sp"
-                android:textColor="#53565b"
-                android:layout_width="wrap_content" android:layout_height="15dp"/>
-        <ImageView
-                android:src="@drawable/ic_totalauthnum"
-                android:layout_marginVertical="2.5dp"
-                android:layout_marginRight="4dp"
-                android:layout_marginLeft="10dp"
-                android:layout_width="12dp"
-                android:layout_height="12dp"/>
-        <TextView
-                android:id="@+id/txt_challenge_detail_totalnum"
-                android:text="총56회 인증"
-                android:textSize="10sp"
-                android:textColor="#53565b"
-                android:layout_width="wrap_content" android:layout_height="15dp"/>
-        <ImageView4
-                android:src="@drawable/user_2"
-                android:layout_marginVertical="2.5dp"
-                android:layout_marginRight="3.8dp"
-                android:layout_marginLeft="10dp"
-                android:layout_width="12.2dp"
-                android:layout_height="12dp"/>
-        <TextView
-                android:id="@+id/txt_challenge_detail_num"
-                android:text="6회 인증"
-                android:textSize="10sp"
-                android:textColor="#53565b"
-                android:layout_width="wrap_content" android:layout_height="15dp"/>
-
-    </LinearLayout>
-
+            android:layout_marginTop="670dp"
+            android:src="@drawable/btn_dochal"
+            android:layout_width="match_parent" android:layout_height="46dp"/>
 </RelativeLayout>
