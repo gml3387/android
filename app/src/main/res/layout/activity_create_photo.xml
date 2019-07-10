@@ -30,25 +30,32 @@
                     android:layout_width="24dp"
                     android:layout_height="24dp" android:id="@+id/btn_cancel_create_photo"/>
             <ImageView
-                    android:layout_marginLeft="265dp"
-                    android:layout_marginTop="605dp"
-                    android:layout_width="88dp"
-                    android:layout_height="48dp"
-                    android:src="@drawable/btn_next"
-                    android:id="@+id/btn_next_create_photo"/>
-            <ImageView
-                    android:layout_marginTop="309dp"
+                    android:src="@drawable/img_bg_create_photo"
+                    android:layout_marginTop="290dp"
                     android:layout_marginHorizontal="20dp"
                     android:id="@+id/img_pick"
                     android:scaleType="centerCrop"
                     android:layout_width="320dp"
                     android:layout_height="320dp"/>
-            <ImageView
-                    android:layout_marginTop="650dp"
-                    android:layout_marginHorizontal="20dp"
-                    android:layout_width="320dp"
-                    android:layout_height="20dp"
+            <TextView
+                    android:layout_marginTop="540dp"
+                    android:layout_marginHorizontal="92dp"
+                    android:background="@drawable/border_round1"
+                    android:text="사진 선택하기"
+                    android:textSize="14sp"
+                    android:textColor="#15696c"
+                    android:gravity="center"
+                    android:layout_width="170dp"
+                    android:layout_height="40dp"
                     android:id="@+id/img_pick_btn"/>
+            <ImageView
+                    android:layout_marginLeft="256dp"
+                    android:layout_marginTop="610dp"
+                    android:layout_marginBottom="24dp"
+                    android:layout_width="88dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/btn_next"
+                    android:id="@+id/btn_next_create_photo"/>
         </RelativeLayout>
     </ScrollView>
 
