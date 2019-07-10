@@ -2,14 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.example.urthlesh">
 
-
     <uses-permission android:name="android.permission.CAMERA"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
     <uses-feature android:name="android.hardware.camera"/>
     <uses-feature android:name="android.hardware.camera.autofocus"/>
-
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -24,14 +22,12 @@
             android:supportsRtl="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:usesCleartextTraffic="true">
-
+        <activity android:name=".ChallengeCreate.ActivityCreateCheck">
+        </activity>
         <activity android:name=".Activity.ChallengeDetailActivity">
         </activity>
         <activity android:name=".Activity.SearchActivity">
         </activity>
-
-
-
         <activity android:name=".custom_camera.CameraComplement">
         </activity>
         <activity android:name=".custom_camera.CameraCheckActivity">
@@ -50,8 +46,6 @@
                     android:name="android.support.FILE_PROVIDER_PATHS"
                     android:resource="@xml/provider_paths"/>
         </provider>
-
-
 
         <activity android:name=".Activity.LoginActivity">
             <intent-filter>

@@ -38,79 +38,33 @@
                 <LinearLayout
                         android:orientation="horizontal"
                         android:layout_width="match_parent"
-                        android:layout_height="64dp">
+                        android:layout_marginBottom="34dp"
+                        android:layout_height="81dp">
                     <ImageView
-                            android:src="@drawable/img_photo_category_1"
+                            android:src="@drawable/create_category_disposable_change"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content" android:id="@+id/img_category1"
                             android:layout_weight="1"/>
                     <ImageView
-                            android:src="@drawable/img_photo_category_1"
+                            android:src="@drawable/create_category_air_change"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content" android:id="@+id/img_category2"
                             android:layout_weight="1"/>
                     <ImageView
-                            android:src="@drawable/img_photo_category_1"
+                            android:src="@drawable/create_category_tree_change"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content" android:id="@+id/img_category3"
                             android:layout_weight="1"/>
                     <ImageView
-                            android:src="@drawable/img_photo_category_1"
+                            android:src="@drawable/create_category_water_change"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content" android:id="@+id/img_category4"
                             android:layout_weight="1"/>
                     <ImageView
-                            android:src="@drawable/img_photo_category_1"
+                            android:src="@drawable/create_category_ecology_change"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content" android:id="@+id/img_category5"
                             android:layout_weight="1"/>
-                </LinearLayout>
-                <LinearLayout
-                        android:orientation="horizontal"
-                        android:layout_width="match_parent"
-                        android:layout_height="41dp">
-                    <TextView
-                            android:text="일회용품"
-                            android:textColor="#15696c"
-                            android:textSize="10sp"
-                            android:layout_marginLeft="15dp"
-                            android:layout_marginRight="15.5dp"
-                            android:layout_width="36dp"
-                            android:gravity="center_horizontal"
-                            android:layout_height="15dp" android:id="@+id/textView3" android:layout_weight="1"/>
-                    <TextView
-                            android:text="대기"
-                            android:textColor="#15696c"
-                            android:textSize="10sp"
-                            android:layout_marginHorizontal="15.5dp"
-                            android:gravity="center_horizontal"
-                            android:layout_width="36dp"
-                            android:layout_height="15dp" android:id="@+id/textView7" android:layout_weight="1"/>
-                    <TextView
-                            android:text="자원"
-                            android:textColor="#15696c"
-                            android:textSize="10sp"
-                            android:layout_marginHorizontal="15.5dp"
-                            android:layout_width="36dp"
-                            android:gravity="center_horizontal"
-                            android:layout_height="15dp" android:id="@+id/textView6" android:layout_weight="1"/>
-                    <TextView
-                            android:text="수질"
-                            android:textColor="#15696c"
-                            android:textSize="10sp"
-                            android:layout_marginHorizontal="15.5dp"
-                            android:layout_width="36dp"
-                            android:gravity="center_horizontal"
-                            android:layout_height="15dp" android:id="@+id/textView5" android:layout_weight="1"/>
-                    <TextView
-                            android:text="생태계"
-                            android:textColor="#15696c"
-                            android:textSize="10sp"
-                            android:layout_marginRight="15dp"
-                            android:layout_marginLeft="15.5dp"
-                            android:layout_width="36dp"
-                            android:gravity="center_horizontal"
-                            android:layout_height="15dp" android:id="@+id/textView4" android:layout_weight="1"/>
                 </LinearLayout>
                 <TextView
                         android:textSize="16sp"
