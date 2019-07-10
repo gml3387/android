@@ -86,57 +86,33 @@
                 <LinearLayout
                         android:orientation="horizontal"
                         android:layout_width="match_parent"
+                        android:paddingHorizontal="11dp"
                         android:layout_height="64dp">
                     <ImageView
-                            android:src="@drawable/img_photo_category_1"
+                            android:src="@drawable/btn_category_disposable_default"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content" android:id="@+id/imgcategory1"
                             android:layout_weight="1"/>
                     <ImageView
-                            android:src="@drawable/img_photo_category_1"
+                            android:src="@drawable/btn_category_air_default"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content" android:id="@+id/imgcategory2"
                             android:layout_weight="1"/>
                     <ImageView
-                            android:src="@drawable/img_photo_category_1"
+                            android:src="@drawable/btn_category_tree_default"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content" android:id="@+id/imgcategory3"
                             android:layout_weight="1"/>
                     <ImageView
-                            android:src="@drawable/img_photo_category_1"
+                            android:src="@drawable/btn_category_water_default"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content" android:id="@+id/imgcategory4"
                             android:layout_weight="1"/>
                     <ImageView
-                            android:src="@drawable/img_photo_category_1"
+                            android:src="@drawable/btn_category_ecology_default"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content" android:id="@+id/imgcategory5"
                             android:layout_weight="1"/>
-                </LinearLayout>
-                <LinearLayout
-                        android:orientation="horizontal"
-                        android:layout_width="match_parent"
-                        android:layout_height="41dp">
-                    <TextView
-                            android:text="TextView"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" android:id="@+id/textView3" android:layout_weight="1"/>
-                    <TextView
-                            android:text="TextView"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" android:id="@+id/textView7" android:layout_weight="1"/>
-                    <TextView
-                            android:text="TextView"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" android:id="@+id/textView6" android:layout_weight="1"/>
-                    <TextView
-                            android:text="TextView"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" android:id="@+id/textView5" android:layout_weight="1"/>
-                    <TextView
-                            android:text="TextView"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" android:id="@+id/textView4" android:layout_weight="1"/>
                 </LinearLayout>
                 <ImageView
                         android:src="@drawable/img_line_long"

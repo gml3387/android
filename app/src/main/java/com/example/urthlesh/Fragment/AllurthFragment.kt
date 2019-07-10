@@ -40,31 +40,31 @@ class AllurthFragment : Fragment() {
         }
         imgcategory1.setOnClickListener {
             var intent = Intent(activity, CategoryDetailActivity::class.java);
-            intent.putExtra("title", "카테고리1")
+            intent.putExtra("title", "일회용품")
             intent.putExtra("main_img","https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-9/58383648_1714122605401284_8261916106969579520_o.jpg?_nc_cat=107&_nc_ht=scontent-icn1-1.xx&oh=5685d155cc3622b1535485166619daff&oe=5D756045")
             context!!.startActivity(intent)
         }
         imgcategory2.setOnClickListener {
             var intent = Intent(activity, CategoryDetailActivity::class.java);
-            intent.putExtra("title", "카테고리2")
+            intent.putExtra("title", "대기")
             intent.putExtra("main_img","https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-9/58383648_1714122605401284_8261916106969579520_o.jpg?_nc_cat=107&_nc_ht=scontent-icn1-1.xx&oh=5685d155cc3622b1535485166619daff&oe=5D756045")
             context!!.startActivity(intent)
         }
         imgcategory3.setOnClickListener {
             var intent = Intent(activity, CategoryDetailActivity::class.java);
-            intent.putExtra("title", "카테고리3")
+            intent.putExtra("title", "자원")
             intent.putExtra("main_img","https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-9/58383648_1714122605401284_8261916106969579520_o.jpg?_nc_cat=107&_nc_ht=scontent-icn1-1.xx&oh=5685d155cc3622b1535485166619daff&oe=5D756045")
             context!!.startActivity(intent)
         }
         imgcategory4.setOnClickListener {
             var intent = Intent(activity, CategoryDetailActivity::class.java);
-            intent.putExtra("title", "카테고리4")
+            intent.putExtra("title", "수질")
             intent.putExtra("main_img","https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-9/58383648_1714122605401284_8261916106969579520_o.jpg?_nc_cat=107&_nc_ht=scontent-icn1-1.xx&oh=5685d155cc3622b1535485166619daff&oe=5D756045")
             context!!.startActivity(intent)
         }
         imgcategory5.setOnClickListener {
             var intent = Intent(activity, CategoryDetailActivity::class.java);
-            intent.putExtra("title", "카테고리5")
+            intent.putExtra("title", "생태계")
             intent.putExtra("main_img","https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-9/58383648_1714122605401284_8261916106969579520_o.jpg?_nc_cat=107&_nc_ht=scontent-icn1-1.xx&oh=5685d155cc3622b1535485166619daff&oe=5D756045")
             context!!.startActivity(intent)
         }
