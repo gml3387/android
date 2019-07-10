@@ -40,10 +40,9 @@ class RVChallengeAdapter(val ctx: Context, val dataList: ArrayList<ChallengeData
         }
     }
 
-
     inner class Holder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
-        var challengeSet = itemView.findViewById(R.id.ll_rv_challengeset) as LinearLayout
+        var challengeSet = itemView.findViewById(R.id.rv_challengeset) as LinearLayout
         var image = itemView.findViewById(R.id.img_rv_challenge_image) as ImageView
         var title = itemView.findViewById(R.id.txt_rv_challenge_title) as TextView
         var creator = itemView.findViewById(R.id.txt_rv_challenge_creator) as TextView

@@ -22,6 +22,8 @@
             android:supportsRtl="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:usesCleartextTraffic="true">
+        <activity android:name=".ChallengeCreate.ActivityCreateComplete">
+        </activity>
         <activity android:name=".ChallengeCreate.ActivityCreateCheck">
         </activity>
         <activity android:name=".Activity.ChallengeDetailActivity">

@@ -111,8 +111,16 @@
                         android:layout_width="14dp" android:layout_height="2dp"/>
                 <ImageView
                         android:id="@+id/txt_create_challenge_image"
+                        android:background="@drawable/border_create_challenge_image"
                         android:layout_width="320dp" android:layout_height="320dp"/>
             </LinearLayout>
+            <ImageView
+                    android:id="@+id/btn_finish_create_check"
+                    android:src="@drawable/btn_finish"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="29dp"
+                    android:layout_marginLeft="256dp"
+                    android:layout_width="88dp" android:layout_height="48dp"/>
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
 

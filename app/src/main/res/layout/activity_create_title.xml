@@ -44,7 +44,7 @@
                     android:id="@+id/edit_txt_createtitle" android:hint="20자 이내로 작성해주세요."/>
             <ImageView
                     android:layout_marginLeft="265dp"
-                    android:layout_marginTop="605dp"
+                    android:layout_marginTop="615dp"
                     android:layout_width="88dp"
                     android:layout_height="48dp"
                     android:src="@drawable/btn_next"

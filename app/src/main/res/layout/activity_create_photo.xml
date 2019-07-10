@@ -40,17 +40,18 @@
             <TextView
                     android:layout_marginTop="540dp"
                     android:layout_marginHorizontal="92dp"
-                    android:background="@drawable/border_round1"
+                    android:background="@drawable/border_btn_pick_image"
                     android:text="사진 선택하기"
                     android:textSize="14sp"
                     android:textColor="#15696c"
+                    android:textStyle="bold"
                     android:gravity="center"
                     android:layout_width="170dp"
                     android:layout_height="40dp"
                     android:id="@+id/img_pick_btn"/>
             <ImageView
                     android:layout_marginLeft="256dp"
-                    android:layout_marginTop="610dp"
+                    android:layout_marginTop="615dp"
                     android:layout_marginBottom="24dp"
                     android:layout_width="88dp"
                     android:layout_height="48dp"
